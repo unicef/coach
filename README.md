@@ -2,6 +2,7 @@ Coach
 =====
 
 [![License: CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa-legal]
+[![CircleCI](https://circleci.com/gh/unicef/coach/tree/main.svg?style=shield)](https://circleci.com/gh/unicef/coach/tree/main)
 
 Web application to measure and track progress in achieving the [DPG Standard][1] across [UNICEF Venture Fund][2] portfolio companies.
 Exports PDF reports.
