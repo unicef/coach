@@ -52,7 +52,7 @@ jobs:
       # add repository deploy key (for pull/push access)
       - add_ssh_keys:
           fingerprints:
-            - "21:74:62:c8:10:59:77:7c:9d:96:cf:c8:69:84:1f:bb"
+            - "7c:a7:c1:ec:bf:cc:e0:81:df:f9:f9:ad:0c:b9:3c:e5"
 
       # deploy.sh dependencies
       - run: apk add rsync
