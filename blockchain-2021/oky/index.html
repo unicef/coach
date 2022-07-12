@@ -60,23 +60,26 @@
 		<meta name="twitter:title" content="Oky"/>
 		<meta name="twitter:description" content="A grid will be shown here for Oky&rsquo;s progress to becoming a DPG."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/coach/images/unicef-logo.png" alt="UNICEF Coach Cards">
 								<a class="d-block nav-title" href="/coach">UNICEF Coach Cards</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -92,216 +95,246 @@
 								</div>
 							</li>
 						</ul>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<!-- enable tooltips for status field in DPG report card. -->
-		<script>
-			$(document).ready(function(){
-			  $('[data-toggle="tooltip"]').tooltip();
-			});
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/coach" aria-label="back"></a>
-							<ul class="list-styled">
-								<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/" title="Blockchain 2021" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/coach/">Home</a>
+							&gt; <a href="https://unicef.github.io/coach/blockchain-2021" class="breadcrumbLink">blockchain-2021</a>
+							&gt; <a href="https://unicef.github.io/coach/blockchain-2021/oky" class="breadcrumbLink">oky</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/" title="Blockchain 2021" class="sidelist
   ">
-									<div class="container">
-										<div class="row">
-											<div class="col-10">
-												<a href="https://unicef.github.io/coach/blockchain-2021/" class="">
-													Blockchain 2021
-												</a>
-											</div>
-											<div class="col-2 ">
-												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse0cf1af0fcc9435f4939a6d415e9c2a98" aria-expanded="false" aria-controls='collapse0cf1af0fcc9435f4939a6d415e9c2a98'>
-												</i>
-											</div>
-										</div>
-										<div id='collapse0cf1af0fcc9435f4939a6d415e9c2a98' class="collapse" aria-labelledby="heading0cf1af0fcc9435f4939a6d415e9c2a98" data-parent="#accordionExample">
-											<div class="sidebar-scroll">
-												<ul>
-													<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/oky/" title="Oky" class="sidelist
+										<a href="/coach" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/coach/blockchain-2021/" class="font-weight-bold d-inline">
+											Blockchain 2021
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/oky/" title="Oky" class="sidelist
   active">
-														<div class="container">
-															<div class="row">
-																<div class="col-10">
-																	<a href="https://unicef.github.io/coach/blockchain-2021/oky/" class="">
-																		Oky
-																	</a>
-																</div>
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/coach/blockchain-2021/oky/" class="">
+																	Oky
+																</a>
 															</div>
-														</li>
-													</ul>
-												</div>
+														</div>
+													</li>
+												</ul>
 											</div>
 										</li>
 									</ul>
 								</div>
 							</div>
-							<div class="col-lg-9">
-								<!-- breadcrumbs -->
-								<div class="bg-white" style="margin:auto">
-									<script language="JavaScript">
-										String.prototype.capitalizeFirstLetter = function() {
-										   return this.charAt(0).toUpperCase() + this.slice(1);
-										}
-
-										var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/coach\/'>Home</a>";
-										var href = document.location.href;
-										var s = href.split("/");
-										for (var i=3;i<(s.length-2);i++) {
-										   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-										}
-										i=s.length-1;
-										path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-										path+="  &gt;  <b>Oky</b>";
-										document.writeln(path);
-									</script>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- /header -->
+			<!-- enable tooltips for status field in DPG report card. -->
+			<script>
+				$(document).ready(function(){
+				  $('[data-toggle="tooltip"]').tooltip();
+				});
+			</script>
+			<!-- details page -->
+			<section class="single section-sm main-section" id="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="sidebar">
+								<a class="back-btn" href="/coach" aria-label="back"></a>
+								<ul class="list-styled">
+									<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/" title="Blockchain 2021" class="sidelist
+  ">
+										<div class="container">
+											<div class="row">
+												<div class="col-10">
+													<a href="https://unicef.github.io/coach/blockchain-2021/" class="">
+														Blockchain 2021
+													</a>
+												</div>
+												<div class="col-2 ">
+													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9ed3c08f505cca96f4a93f94c91f4a21" aria-expanded="false" aria-controls='collapse9ed3c08f505cca96f4a93f94c91f4a21'>
+													</i>
+												</div>
+											</div>
+											<div id='collapse9ed3c08f505cca96f4a93f94c91f4a21' class="collapse" aria-labelledby="heading9ed3c08f505cca96f4a93f94c91f4a21" data-parent="#accordionExample">
+												<div class="sidebar-scroll">
+													<ul>
+														<li data-nav-id="https://unicef.github.io/coach/blockchain-2021/oky/" title="Oky" class="sidelist
+  active">
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/coach/blockchain-2021/oky/" class="">
+																			Oky
+																		</a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
 								</div>
-								<!-- /breadcrumbs -->
-								<div class="p-lg-5 p-4 bg-white" id="content">
-									<h2 class="mb-5" id="title">Oky</h2>
-									<div class="content">
-										<p>A grid will be shown here for Oky&rsquo;s progress to becoming a DPG.</p>
-										<div class="container" id="report-dpg">
-											<div class="row" id="report-dpg-header">
-												<div class="col-sm">Req. &#35;</div>
-												<div class="col-sm col-md-3">Indicator</div>
-												<div class="col-sm">Status</div>
-												<div class="col-sm col-md-5">Evidence</div>
-											</div>
-											<div class="row" id="report-dpg-req1">
-												<div class="col-sm text-center font-weight-bold">1</div>
-												<div class="col-sm text-center col-md-3">Relevance to Sustainable Development Goals</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="3 5 6 "></div>
-												<div class="col-sm col-md-5"><a href="https://digitalpublicgoods.net/registry/oky.html">DPG Registry</a></div>
-											</div>
-											<div class="row" id="report-dpg-req2">
-												<div class="col-sm text-center font-weight-bold">2</div>
-												<div class="col-sm text-center col-md-3">Use of Approved Open Licenses</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="AGPL-3.0 CC BY 4.0 "></div>
-												<div class="col-sm col-md-5"><a href="https://github.com/alextyers/period-tracker-app-whitelabelled/blob/main/LICENSE">GitHub</a></div>
-											</div>
-											<div class="row" id="report-dpg-req3">
-												<div class="col-sm text-center font-weight-bold">3</div>
-												<div class="col-sm text-center col-md-3">Clear Ownership</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
-												<div class="col-sm col-md-5"><a href="http://okyapp.info/">http://okyapp.info/</a></div>
-											</div>
-											<div class="row" id="report-dpg-req4">
-												<div class="col-sm text-center font-weight-bold">4</div>
-												<div class="col-sm text-center col-md-3">Platform Independence</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="no "></div>
-												<div class="col-sm col-md-5">not applicable</div>
-											</div>
-											<div class="row" id="report-dpg-req5">
-												<div class="col-sm text-center font-weight-bold">5</div>
-												<div class="col-sm text-center col-md-3">Documentation</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="Repo README Google Docs "></div>
-												<div class="col-sm col-md-5"><a href="https://drive.google.com/open?id=1iXM8tBPdsnLciG1Pw2eFJN4zq3TsKpEA">Google Docs</a></div>
-											</div>
-											<div class="row" id="report-dpg-req6">
-												<div class="col-sm text-center font-weight-bold">6</div>
-												<div class="col-sm text-center col-md-3">Mechanism for Extracting Data</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
-												<div class="col-sm col-md-5">All non-PII data is stored in a postgress SQL database and can be exported in standard CSV or SQL statement formats on demand. However, Oky has strict data governance processes in place, and access is very restricted.</div>
-											</div>
-											<div class="row" id="report-dpg-req7">
-												<div class="col-sm text-center font-weight-bold">7</div>
-												<div class="col-sm text-center col-md-3">Adherence to Privacy and Applicable Laws</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="GDPR "></div>
-												<div class="col-sm col-md-5"><a href="https://docs.google.com/document/d/16lW1SV-DrO4XsninP_SsMj424RDcCOapG96BS0OxSoo/preview">Privacy policy</a>, <a href="https://docs.google.com/document/d/1zN_YF5Mae13uEAljoZnsisoX_5C9SFaaCiOf2ZfFRNk/preview">terms and conditions</a></div>
-											</div>
-											<div class="row" id="report-dpg-req8">
-												<div class="col-sm text-center font-weight-bold">8</div>
-												<div class="col-sm text-center col-md-3">Adherence to Standards &amp; Best Practices</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
-												<div class="col-sm col-md-5">REST, JSON, CSV. <a href="https://github.com/alextyers/period-tracker-app-whitelabelled">GitHub</a></div>
-											</div>
-											<div class="row" id="report-dpg-req9">
-												<div class="col-sm text-center font-weight-bold">9</div>
-												<div class="col-sm text-center col-md-3">Do No Harm by Design</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
-												<div class="col-sm col-md-5">The Oky app has been designed with very high privacy settings, to protect users. We do not hold in our database any personally identifiable data. While user-generated fields at time of registration (username, password, secure answer) are not able to identify an individual, as part of Oky’s strict data governance approach, Oky hashes and salts these fields to render the original values inaccessible. This hashing approach is used with the purpose to: (a) obfuscate the username to anyone who might access the database, and (b) to guarantee user authentication, ie. to allow users to log into their account on the same device or a different device.</div>
-											</div>
-											<div class="row" id="report-dpg-req9a">
-												<div class="col-sm text-center font-weight-bold">9a</div>
-												<div class="col-sm text-center col-md-3">Data Privacy &amp; Security</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="does not collect PII "></div>
-												<div class="col-sm col-md-5">not applicable</div>
-											</div>
-											<div class="row" id="report-dpg-req9b">
-												<div class="col-sm text-center font-weight-bold">9b</div>
-												<div class="col-sm text-center col-md-3">Inappropriate &amp; Illegal Content</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="does not store content "></div>
-												<div class="col-sm col-md-5">not applicable</div>
-											</div>
-											<div class="row" id="report-dpg-req9c">
-												<div class="col-sm text-center font-weight-bold">9c</div>
-												<div class="col-sm text-center col-md-3">Protection from Harassment</div>
-												<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="no interactions among users and contributors "></div>
-												<div class="col-sm col-md-5">not applicable</div>
-											</div>
+								<div class="col-lg-9">
+									<!-- breadcrumbs -->
+									<div class="bg-white" style="margin:auto">
+										<div class="breadcrumbs">
+											<a href="https://unicef.github.io/coach/">Home</a>
+											&gt; <a href="https://unicef.github.io/coach/blockchain-2021/oky/https://unicef.github.io/coach/blockchain-2021" class="breadcrumbLink">blockchain-2021</a>
+											&gt; <a href="https://unicef.github.io/coach/blockchain-2021/oky/https://unicef.github.io/coach/blockchain-2021/oky" class="breadcrumbLink">oky</a>
 										</div>
 									</div>
-									<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 11 Mar 2022</p>
-									<nav class="pagination mt-3">
-										<a class="nav nav-prev" href="https://unicef.github.io/coach/blockchain-2021/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Blockchain 2021</span></a>
-									</nav>
+									<!-- /breadcrumbs -->
+									<div class="p-lg-5 p-4 bg-white" id="content">
+										<h2 class="mb-5" id="title">Oky</h2>
+										<div class="content">
+											<p>A grid will be shown here for Oky&rsquo;s progress to becoming a DPG.</p>
+											<div class="container" id="report-dpg">
+												<div class="row" id="report-dpg-header">
+													<div class="col-sm">Req. &#35;</div>
+													<div class="col-sm col-md-3">Indicator</div>
+													<div class="col-sm">Status</div>
+													<div class="col-sm col-md-5">Evidence</div>
+												</div>
+												<div class="row" id="report-dpg-req1">
+													<div class="col-sm text-center font-weight-bold">1</div>
+													<div class="col-sm text-center col-md-3">Relevance to Sustainable Development Goals</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="3 5 6 "></div>
+													<div class="col-sm col-md-5"><a href="https://digitalpublicgoods.net/registry/oky.html">DPG Registry</a></div>
+												</div>
+												<div class="row" id="report-dpg-req2">
+													<div class="col-sm text-center font-weight-bold">2</div>
+													<div class="col-sm text-center col-md-3">Use of Approved Open Licenses</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="AGPL-3.0 CC BY 4.0 "></div>
+													<div class="col-sm col-md-5"><a href="https://github.com/alextyers/period-tracker-app-whitelabelled/blob/main/LICENSE">GitHub</a></div>
+												</div>
+												<div class="row" id="report-dpg-req3">
+													<div class="col-sm text-center font-weight-bold">3</div>
+													<div class="col-sm text-center col-md-3">Clear Ownership</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
+													<div class="col-sm col-md-5"><a href="http://okyapp.info/">http://okyapp.info/</a></div>
+												</div>
+												<div class="row" id="report-dpg-req4">
+													<div class="col-sm text-center font-weight-bold">4</div>
+													<div class="col-sm text-center col-md-3">Platform Independence</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="no "></div>
+													<div class="col-sm col-md-5">not applicable</div>
+												</div>
+												<div class="row" id="report-dpg-req5">
+													<div class="col-sm text-center font-weight-bold">5</div>
+													<div class="col-sm text-center col-md-3">Documentation</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="Repo README Google Docs "></div>
+													<div class="col-sm col-md-5"><a href="https://drive.google.com/open?id=1iXM8tBPdsnLciG1Pw2eFJN4zq3TsKpEA">Google Docs</a></div>
+												</div>
+												<div class="row" id="report-dpg-req6">
+													<div class="col-sm text-center font-weight-bold">6</div>
+													<div class="col-sm text-center col-md-3">Mechanism for Extracting Data</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
+													<div class="col-sm col-md-5">All non-PII data is stored in a postgress SQL database and can be exported in standard CSV or SQL statement formats on demand. However, Oky has strict data governance processes in place, and access is very restricted.</div>
+												</div>
+												<div class="row" id="report-dpg-req7">
+													<div class="col-sm text-center font-weight-bold">7</div>
+													<div class="col-sm text-center col-md-3">Adherence to Privacy and Applicable Laws</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="GDPR "></div>
+													<div class="col-sm col-md-5"><a href="https://docs.google.com/document/d/16lW1SV-DrO4XsninP_SsMj424RDcCOapG96BS0OxSoo/preview">Privacy policy</a>, <a href="https://docs.google.com/document/d/1zN_YF5Mae13uEAljoZnsisoX_5C9SFaaCiOf2ZfFRNk/preview">terms and conditions</a></div>
+												</div>
+												<div class="row" id="report-dpg-req8">
+													<div class="col-sm text-center font-weight-bold">8</div>
+													<div class="col-sm text-center col-md-3">Adherence to Standards &amp; Best Practices</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
+													<div class="col-sm col-md-5">REST, JSON, CSV. <a href="https://github.com/alextyers/period-tracker-app-whitelabelled">GitHub</a></div>
+												</div>
+												<div class="row" id="report-dpg-req9">
+													<div class="col-sm text-center font-weight-bold">9</div>
+													<div class="col-sm text-center col-md-3">Do No Harm by Design</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="yes "></div>
+													<div class="col-sm col-md-5">The Oky app has been designed with very high privacy settings, to protect users. We do not hold in our database any personally identifiable data. While user-generated fields at time of registration (username, password, secure answer) are not able to identify an individual, as part of Oky’s strict data governance approach, Oky hashes and salts these fields to render the original values inaccessible. This hashing approach is used with the purpose to: (a) obfuscate the username to anyone who might access the database, and (b) to guarantee user authentication, ie. to allow users to log into their account on the same device or a different device.</div>
+												</div>
+												<div class="row" id="report-dpg-req9a">
+													<div class="col-sm text-center font-weight-bold">9a</div>
+													<div class="col-sm text-center col-md-3">Data Privacy &amp; Security</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="does not collect PII "></div>
+													<div class="col-sm col-md-5">not applicable</div>
+												</div>
+												<div class="row" id="report-dpg-req9b">
+													<div class="col-sm text-center font-weight-bold">9b</div>
+													<div class="col-sm text-center col-md-3">Inappropriate &amp; Illegal Content</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="does not store content "></div>
+													<div class="col-sm col-md-5">not applicable</div>
+												</div>
+												<div class="row" id="report-dpg-req9c">
+													<div class="col-sm text-center font-weight-bold">9c</div>
+													<div class="col-sm text-center col-md-3">Protection from Harassment</div>
+													<div class="col-sm report-dpg-status1" data-toggle="tooltip" data-placement="top" title="no interactions among users and contributors "></div>
+													<div class="col-sm col-md-5">not applicable</div>
+												</div>
+											</div>
+										</div>
+										<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 11 Mar 2022</p>
+										<nav class="pagination mt-3">
+											<a class="nav nav-prev" href="https://unicef.github.io/coach/blockchain-2021/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Blockchain 2021</span></a>
+										</nav>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
-				<!-- /details page -->
-				<!-- footer -->
-				<footer class="section bg-primary p-4 mt-5">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-3 text-md-left text-center">
-								<ul>
-									<li><a class="nav-link text-white" href="/coach">HOME</a></li>
-									<li class="nav-item">
-										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/coach/faq">FAQ</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-6 text-md-center text-center">
-								<p class="mb-md-0 mb-4 text-white">Web application to measure and track progress in achieving the DPG Standard across UNICEF Venture Fund portfolio companies.</p>
-							</div>
-							<div class="col-md-3 text-md-right text-center">
-								<ul class="text-white">
-									<li class="nav-item">
-										<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link text-white font-weight-bold" href="https://digitalpublicgoods.net/standard/">DPG Standard</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-										<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-									</li>
-								</ul>
-								<ul class="list-inline">
-									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/coach" aria-label="UNICEF Coach on GitHub"><i class="ti-github"></i></a></li>
-									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-								</ul>
+					</section>
+					<!-- /details page -->
+					<!-- footer -->
+					<footer class="section bg-primary p-4 mt-5">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-3 text-md-left text-center">
+									<ul>
+										<li><a class="nav-link text-white" href="/coach">HOME</a></li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/coach/faq">FAQ</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 text-md-center text-center">
+									<p class="mb-md-0 mb-4 text-white">Web application to measure and track progress in achieving the DPG Standard across UNICEF Venture Fund portfolio companies.</p>
+								</div>
+								<div class="col-md-3 text-md-right text-center">
+									<ul class="text-white">
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold px-0" href="https://digitalpublicgoods.net/standard/">DPG Standard</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+											<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+										</li>
+									</ul>
+									<ul class="list-inline">
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/coach" aria-label="UNICEF Coach on GitHub"><i class="ti-github"></i></a></li>
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-					<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</p>
-				</footer>
-				<!-- /footer -->
-				<!-- Main Script -->
-				<script src="https://unicef.github.io/coach/js/script.min.js"></script>
-			</body>
-		</html>
+						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</p>
+					</footer>
+					<!-- /footer -->
+					<!-- Main Script -->
+					<script src="https://unicef.github.io/coach/js/script.min.js"></script>
+				</body>
+			</html>
